@@ -1,0 +1,274 @@
+{
+  "title" : "Map fn + number keys to numpad",
+  "rules" : [
+    {
+      "description" : "Map fn + number keys to numpad",
+      "manipulators" : [
+        {
+          "type" : "basic",
+          "from" : {
+            "key_code" : "1",
+            "modifiers" : {
+              "mandatory" : [
+                "fn"
+              ],
+              "optional" : [
+                "any"
+              ]
+            }
+          },
+          "to" : [
+            {
+              "key_code" : "keypad_1",
+              "modifiers" : [
+                "fn"
+              ]
+            }
+          ]
+        },
+        {
+          "type" : "basic",
+          "from" : {
+            "key_code" : "2",
+            "modifiers" : {
+              "mandatory" : [
+                "fn"
+              ],
+              "optional" : [
+                "any"
+              ]
+            }
+          },
+          "to" : [
+            {
+              "key_code" : "keypad_2",
+              "modifiers" : [
+                "fn"
+              ]
+            }
+          ]
+        },
+        {
+          "type" : "basic",
+          "from" : {
+            "key_code" : "3",
+            "modifiers" : {
+              "mandatory" : [
+                "fn"
+              ],
+              "optional" : [
+                "any"
+              ]
+            }
+          },
+          "to" : [
+            {
+              "key_code" : "keypad_3",
+              "modifiers" : [
+                "fn"
+              ]
+            }
+          ]
+        },
+        {
+          "type" : "basic",
+          "from" : {
+            "key_code" : "4",
+            "modifiers" : {
+              "mandatory" : [
+                "fn"
+              ],
+              "optional" : [
+                "any"
+              ]
+            }
+          },
+          "to" : [
+            {
+              "key_code" : "keypad_4",
+              "modifiers" : [
+                "fn"
+              ]
+            }
+          ]
+        },
+        {
+          "type" : "basic",
+          "from" : {
+            "key_code" : "5",
+            "modifiers" : {
+              "mandatory" : [
+                "fn"
+              ],
+              "optional" : [
+                "any"
+              ]
+            }
+          },
+          "to" : [
+            {
+              "key_code" : "keypad_5",
+              "modifiers" : [
+                "fn"
+              ]
+            }
+          ]
+        },
+        {
+          "type" : "basic",
+          "from" : {
+            "key_code" : "6",
+            "modifiers" : {
+              "mandatory" : [
+                "fn"
+              ],
+              "optional" : [
+                "any"
+              ]
+            }
+          },
+          "to" : [
+            {
+              "key_code" : "keypad_6",
+              "modifiers" : [
+                "fn"
+              ]
+            }
+          ]
+        },
+        {
+          "type" : "basic",
+          "from" : {
+            "key_code" : "7",
+            "modifiers" : {
+              "mandatory" : [
+                "fn"
+              ],
+              "optional" : [
+                "any"
+              ]
+            }
+          },
+          "to" : [
+            {
+              "key_code" : "keypad_7",
+              "modifiers" : [
+                "fn"
+              ]
+            }
+          ]
+        },
+        {
+          "type" : "basic",
+          "from" : {
+            "key_code" : "8",
+            "modifiers" : {
+              "mandatory" : [
+                "fn"
+              ],
+              "optional" : [
+                "any"
+              ]
+            }
+          },
+          "to" : [
+            {
+              "key_code" : "keypad_8",
+              "modifiers" : [
+                "fn"
+              ]
+            }
+          ]
+        },
+        {
+          "type" : "basic",
+          "from" : {
+            "key_code" : "9",
+            "modifiers" : {
+              "mandatory" : [
+                "fn"
+              ],
+              "optional" : [
+                "any"
+              ]
+            }
+          },
+          "to" : [
+            {
+              "key_code" : "keypad_9",
+              "modifiers" : [
+                "fn"
+              ]
+            }
+          ]
+        },
+        {
+          "type" : "basic",
+          "from" : {
+            "key_code" : "0",
+            "modifiers" : {
+              "mandatory" : [
+                "fn"
+              ],
+              "optional" : [
+                "any"
+              ]
+            }
+          },
+          "to" : [
+            {
+              "key_code" : "keypad_0",
+              "modifiers" : [
+                "fn"
+              ]
+            }
+          ]
+        },
+        {
+          "type" : "basic",
+          "from" : {
+            "key_code" : "hyphen",
+            "modifiers" : {
+              "mandatory" : [
+                "fn"
+              ],
+              "optional" : [
+                "any"
+              ]
+            }
+          },
+          "to" : [
+            {
+              "key_code" : "keypad_hyphen",
+              "modifiers" : [
+                "fn"
+              ]
+            }
+          ]
+        },
+        {
+          "type" : "basic",
+          "from" : {
+            "key_code" : "equal_sign",
+            "modifiers" : {
+              "mandatory" : [
+                "fn"
+              ],
+              "optional" : [
+                "any"
+              ]
+            }
+          },
+          "to" : [
+            {
+              "key_code" : "f12",
+              "modifiers" : [
+                "fn"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
