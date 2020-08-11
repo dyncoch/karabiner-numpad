@@ -261,7 +261,7 @@
           },
           "to" : [
             {
-              "key_code" : "f12",
+              "key_code" : "keypad_plus",
               "modifiers" : [
                 "fn"
               ]
